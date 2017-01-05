@@ -1,8 +1,5 @@
 class UsersController < ApplicationController
 
-  def index
-  end
-
   def new
   end
 
@@ -14,18 +11,6 @@ class UsersController < ApplicationController
     else
       redirect_to new_user_path
     end
-  end
-
-  def edit
-  end
-
-  def show
-  end
-
-  def update
-  end
-
-  def destroy
   end
 
   private
